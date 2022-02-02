@@ -1,10 +1,11 @@
 package org.cherise.sandbox;
 
-import java.util.logging.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class HelloWorld {
 
-  private static final Logger LOGGER = Logger.getLogger(HelloWorld.class.getName());
+  private static final Logger logger = LoggerFactory.getLogger(HelloWorld.class);
 
   public static void main(String[] args) {
     logger.info("Hello World!");
