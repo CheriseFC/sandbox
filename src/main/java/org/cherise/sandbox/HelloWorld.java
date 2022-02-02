@@ -7,7 +7,7 @@ public class HelloWorld {
   private static final Logger LOGGER = Logger.getLogger(HelloWorld.class.getName());
 
   public static void main(String[] args) {
-    LOGGER.info("Hello World!");
-    LOGGER.info("Hello Cherise!");
+    logger.info("Hello World!");
+    logger.info("Hello Cherise!");
   }
 }
