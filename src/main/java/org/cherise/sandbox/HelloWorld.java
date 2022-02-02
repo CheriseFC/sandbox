@@ -10,5 +10,8 @@ public class HelloWorld {
   public static void main(String[] args) {
     logger.info("Hello World!");
     logger.info("Hello Cherise!");
+
+    int i = 5;
+    logger.info("My first number {}", i);
   }
 }
