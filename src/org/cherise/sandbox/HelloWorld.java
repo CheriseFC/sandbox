@@ -1,8 +1,13 @@
 package org.cherise.sandbox;
 
+import java.util.logging.Logger;
+
 public class HelloWorld {
 
+  private static final Logger LOGGER = Logger.getLogger(HelloWorld.class.getName());
+
   public static void main(String[] args) {
-    System.out.println("Hello World!");
+    LOGGER.info("Hello World!");
+    LOGGER.info("Hello Cherise!");
   }
 }
