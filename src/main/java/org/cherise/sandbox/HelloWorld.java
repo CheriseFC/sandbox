@@ -7,11 +7,12 @@ public class HelloWorld {
 
   private static final Logger logger = LoggerFactory.getLogger(HelloWorld.class);
 
-  public static void main(String[] args) {
+  private HelloWorld() {
+    // Empty constructor
+  }
+
+  public static void sayHello() {
     logger.info("Hello World!");
     logger.info("Hello Cherise!");
-
-    int i = 5;
-    logger.info("My first number {}", i);
   }
 }
