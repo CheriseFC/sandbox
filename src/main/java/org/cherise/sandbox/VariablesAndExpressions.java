@@ -7,7 +7,7 @@ public class VariablesAndExpressions {
 
   private static final Logger logger = LoggerFactory.getLogger(VariablesAndExpressions.class);
 
-  public VariablesAndExpressions() {
+  private VariablesAndExpressions() {
     // Empty constructor
   }
 
@@ -17,10 +17,10 @@ public class VariablesAndExpressions {
     int i2 = i0 * 2;
     int iTotal = i0 + i1 + i2;
     int iLast = 1000 - iTotal;
-    logger.info("\n\tFirst {}\n\t"
-        + "Second {}\n\t"
-        + "Third {}\n\t"
-        + "Total {}\n\t"
-        + "Last {}", i0 , i1, i2, iTotal, iLast);
+    logger.info("First {}", i0);
+    logger.info("Second {}", i1);
+    logger.info("Third {}", i2);
+    logger.info("Total {}", iTotal);
+    logger.info("Last {}", iLast);
   }
 }
